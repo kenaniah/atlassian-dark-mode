@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         Kenaniah Cerny
+@namespace    github.com/kenaniah
+@version      1.0.0
+@license      BSD
+@author       @kenaniah
+@preprocessor default
+
+==/UserStyle== */
+@-moz-document regexp(".*.atlassian.net/.*"), regexp(".*.atlassian.com/.*") {
+    html {
+        filter: invert(1) hue-rotate(180deg);
+    }
+    img, [role=img] {
+        filter: invert(1) hue-rotate(180deg);
+    }
+}
